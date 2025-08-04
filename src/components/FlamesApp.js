@@ -75,13 +75,14 @@ const FlamesApp = () => {
                 onChange={(e) => setName2(e.target.value)}
                 placeholder="Enter second name"
             />
-            <button
+            <input 
+                type="button"
+                value={"Calculate Relationship"}
                 data-testid="calculate_relationship"
                 name="calculate_relationship"
                 onClick={calculateRelationship}
-            >
-                Calculate Relationship
-            </button>
+            />
+                
             <button
                 data-testid="clear"
                 name="clear"
