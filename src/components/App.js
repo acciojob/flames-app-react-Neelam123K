@@ -1,6 +1,6 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import FlamesGame from "./FlamesGame";
+import FlamesGame from "./FlamesApp";
 
 class App extends Component {
     render() {
